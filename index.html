@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
@@ -7,89 +6,16 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Ausklappbare Überschriften</title>
+    <title>Algorithmen</title>
 </head>
+
+<frameset rows="90px, *" cols="*" frameborder="1" border="1" framespacing="0">
+    <frame src="header.html" name="header" scrolling="no" noresize>
+    <frameset cols="200px, *">
+        <frame src="left.html" name="menu" scrolling="no" noresize>
+        <frame src="content.html" name="content" scrolling="yes" noresize>
+    </frameset>
+
 <body>
-    <h1 class="page-header">Meine Seite</h1>
-
-    <h1 class="collapsible-header" onclick="expandContent(this)">Definition von Algorithmen und ihre Bedeutung</h1>
-    <div class="collapsible-content">
-        
-        <ul class="liste">  
-            <li class="text">Algorithmen sind strukturierte, schrittweise Anweisungen, die zur Lösung eines Problems oder zur Erreichung eines Zieles verwendet werden.</li>
-            <li class="text">Algorithmen spielen eine wichtige Rolle in vielen Bereichen und werden zunehmend wichtiger.</li>
-        </ul>
-
-    </div>
-
-    <h1 class="collapsible-header" onclick="expandContent(this)">Arten von Algorithmen und ihre Anwendungen</h1>
-    <div class="collapsible-content">
-        <ul class="liste">  
-            <li class="text">Es gibt verschiedene Arten von Algorithmen, wie zum Beispiel sortierende Algorithmen, Suchalgorithmen und Optimierungsalgorithmen.</li>
-            <li class="text">Algorithmen werden in vielen Bereichen eingesetzt, wie zum Beispiel in der Computertechnik, der Finanzindustrie und der Wissenschaft.</li>
-        </ul>
-    </div>
-
-    <h1 class="collapsible-header" onclick="expandContent(this)">Entwicklung und Optimierung von Algorithmen</h1>
-    <div class="collapsible-content">
-        <ul class="liste">  
-            <li class="text">Algorithmen werden entwickelt, um spezifische Probleme oder Ziele zu lösen.</li>
-            <li class="text">Algorithmen können optimiert werden, um schneller oder genauer zu sein oder um andere Anforderungen zu erfüllen.</li>
-        </ul>
-    </div>
-
-    <h1 class="collapsible-header" onclick="expandContent(this)">Einsatz von Algorithmen in verschiedenen Bereichen</h1>
-    <div class="collapsible-content">
-        <ul class="liste">
-            <li class="text">Algorithmen werden in vielen Bereichen eingesetzt, wie zum Beispiel in Suchmaschinen, Empfehlungssystemen und Finanzdienstleistungen. </li>
-            <li class="text">Der Einsatz von Algorithmen kann die Effizienz und die Leistung in diesen Bereichen verbessern.</li>
-        </ul>
-    </div>
-
-    <h1 class="collapsible-header" onclick="expandContent(this)">Ethische Aspekte von Algorithmen</h1>
-    <div class="collapsible-content">
-        <ul class="liste">
-            <li class="text">Algorithmen können ethische Herausforderungen und Fragen aufwerfen, wie zum Beispiel Diskriminierung, Privatsphäre und Verantwortung.</li>
-            <li class="text">Es ist wichtig, Algorithmen verantwortungsbewusst und ethisch vertretbar zu verwenden.</li>
-        </ul>
-    </div>
-
-    <h1 class="collapsible-header" onclick="expandContent(this)">Vor- und Nachteile von Algorithmen</h1>
-    <div class="collapsible-content">
-        <ul class="liste">
-            <li class="text">Algorithmen haben sowohl Vor- als auch Nachteile, wie zum Beispiel Schnelligkeit und Genauigkeit gegenüber Mangel an Flexibilität und Kreativität.</li>
-            <li class="text">Es ist wichtig, die Vor- und Nachteile von Algorithmen abzuwägen bevor diese in einem bestimmten Bereich zum Einsatz kommen</li>
-        </ul>
-    </div>
-
-    <h1 class="collapsible-header" onclick="expandContent(this)">Zukunft von Algorithmen</h1>
-    <div class="collapsible-content">
-        <ul class="liste">
-            <li class="text">Algorithmen werden in Zukunft eine noch wichtigere Rolle spielen und werden in Bereichen wie Künstliche Intelligenz, Maschinelles Lernen, Internet der Dinge und Quantum Computing eingesetzt werden.</li>
-            <li class="text">Die Entwicklung von Algorithmen wird weitergehen und neue Möglichkeiten und Herausforderungen mit sich bringen.</li>
-        </ul>
-        </div>
-
-        <h1 class="collapsible-header" onclick="expandContent(this)">Bedeutung der verantwortungsbewussten und ethisch vertretbaren Verwendung von Algorithmen</h1>
-        <div class="collapsible-content">
-            <ul class="liste">
-                <li class="text">Es ist wichtig, Algorithmen verantwortungsbewusst und ethisch vertretbar zu verwenden, um negative Auswirkungen zu vermeiden und das Vertrauen in ihre Verwendung zu stärken.</li>
-                <li class="text">Es ist auch wichtig, dass wir uns mit den Auswirkungen und ethischen Fragen von Algorithmen auseinandersetzen und sicherstellen, dass sie für alle Beteiligten fair und gerecht sind.</li>
-            </ul>
-        </div>
-
-    <script>
-        function expandContent(element) {
-            var content = element.nextElementSibling;
-            if (content.style.maxHeight) {
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            }
-        }
-    </script>
 </body>
 </html>
-<!--<li class="text"></li>
-<li class="text"></li>*/-->
-
