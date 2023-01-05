@@ -1,0 +1,44 @@
+.collapsible-header {
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    background-color: #444;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.collapsible-header:hover {
+    background-color: #555;
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+body {
+    text-align: center;
+}
+
+.page-header {
+    color: blue;
+    font-size: 24px;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
